@@ -123,8 +123,9 @@
 .menu_button {
   background-color: #574017;
   color: white;
-  width: 20%;
-  height: 5vh;
+  /* width: 20%; */
+  /* height: 5vh; */
+  padding: 8px 10px;
   outline: none;
   border: none;
   font-family: "KCC-Ganpan";
