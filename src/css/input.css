@@ -1,0 +1,91 @@
+.cafe.input label {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  font-family: "KCC-Ganpan";
+  color: #574017;
+  font-size: 25px;
+  margin-top: 2rem;
+}
+
+.cafe.input input,
+.cafe.input select {
+  width: 50%;
+  background-color: rgba(87, 64, 23, 0.2);
+  outline: none;
+  border: none;
+  height: 5vh;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: "TheJamsil5Bold";
+}
+.cafe.input select {
+  text-align: center;
+  font-family: "KCC-Ganpan";
+  font-size: 16px;
+}
+.cafe.input select:hover {
+  cursor: pointer;
+}
+.cafe.input option {
+  font-size: 16px;
+}
+.cafe.input input:focus {
+  background-color: rgb(235, 235, 235);
+}
+.cafe.input input:focus::placeholder {
+  color: transparent;
+}
+.cafe.input input::placeholder {
+  text-align: center;
+  font-size: 16px;
+  font-family: "KCC-Ganpan";
+}
+select[name="c_division"] {
+  appearance: none;
+  -webkit-appearance: none; /* Chrome와 Safari용 */
+  -moz-appearance: none; /* Firefox용 */
+}
+.button {
+  margin-top: 2rem;
+}
+
+.button button {
+  background-color: #574017;
+  color: white;
+  width: 20%;
+  height: 5vh;
+  outline: none;
+  border: none;
+  font-family: "KCC-Ganpan";
+  font-size: 20px;
+}
+.button button:hover {
+  cursor: pointer;
+}
+
+h3 {
+  font-family: "KCC-Ganpan";
+  font-size: 30px;
+  text-align: center;
+}
+
+textarea {
+  width: 50%;
+  height: auto;
+  min-height: 200px;
+  font-size: 16px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: "TheJamsil5Bold";
+  background-color: rgba(87, 64, 23, 0.2);
+  border: none;
+  resize: none;
+}
+textarea::placeholder {
+  font-family: "KCC-Ganpan";
+  font-size: 16px;
+}

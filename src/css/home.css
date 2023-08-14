@@ -1,0 +1,158 @@
+.menu_title {
+  color: black;
+  margin-top: 30px;
+  font-family: "KCC-Ganpan";
+}
+.menu_title p {
+  font-size: 40px;
+}
+.line {
+  width: 90%;
+  background-color: black;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.team_box {
+  width: 50%;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.team_box.di {
+  border-right: 2px solid #574017;
+}
+
+.team_title {
+  color: black;
+  font-size: 30px;
+  font-family: "TheJamsil5Bold";
+}
+
+#footprint {
+  background-image: linear-gradient(120deg, #e6f1fc 0%, #5a7cc5 100%);
+  background-repeat: no-repeat;
+  background-size: 44% 100%;
+  background-position: 50% 88%;
+  color: black;
+}
+#godlife {
+  background-image: linear-gradient(120deg, #fff0f0 0%, #f7a5a5 100%);
+  background-repeat: no-repeat;
+  background-size: 38% 100%;
+  background-position: 50% 88%;
+  color: black;
+}
+#damples {
+  background-image: linear-gradient(120deg, #e0efdc 0%, #0c5c00 100%);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: 50% 88%;
+  color: black;
+}
+#bus {
+  background-image: linear-gradient(120deg, #c4aeee 0%, #8a50e7 100%);
+  background-repeat: no-repeat;
+  background-size: 22% 100%;
+  background-position: 50% 88%;
+  color: black;
+}
+
+.team_member {
+  font-family: "KCC-Ganpan";
+  color: #574017;
+  font-size: 20px;
+  padding: 30px;
+  position: relative;
+  animation: fadeInUp 1s;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+.team_leader {
+  font-size: 25px;
+}
+.team_line {
+  width: 40%;
+  height: 2px;
+  background-color: #574017;
+  margin: 0 auto;
+}
+.team_member img {
+  position: absolute;
+  transform-origin: left;
+  animation: drawUnderline 2s forwards;
+}
+
+@keyframes drawUnderline {
+  0% {
+    opacity: 0;
+    transform: scaleX(0); /* 가로 크기를 0으로 시작 */
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1); /* 가로 크기를 원래 크기로 확장 */
+  }
+}
+.line1 {
+  top: 10px;
+  left: 80px;
+}
+.line2 {
+  top: 13px;
+  left: 95px;
+}
+.line3 {
+  top: 22px;
+  left: 100px;
+}
+.line4 {
+  top: 24px;
+  left: 115px;
+}
+
+.menu_button {
+  background-color: #574017;
+  color: white;
+  width: 20%;
+  height: 5vh;
+  outline: none;
+  border: none;
+  font-family: "KCC-Ganpan";
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.teacher {
+  opacity: 0;
+  transition: opacity 5s ease-out;
+  visibility: hidden; /* 처음에는 보이지 않게 설정 */
+}
+
+.teacher.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.teacher p {
+  font-family: "KCC-Ganpan";
+  font-size: 40px;
+  color: #574017;
+}
+.thanks {
+  font-size: 50px;
+  font-family: "TheJamsil5Bold";
+  color: #574017;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}

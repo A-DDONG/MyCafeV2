@@ -1,0 +1,45 @@
+.item {
+  margin-top: 2rem;
+  display: block;
+  /* width: 50%; */
+  border: 2px solid #574017;
+  text-align: left;
+  position: relative;
+  padding: 10px 0px 10px 20px;
+}
+.item p span:nth-of-type(1) {
+  font-family: "KCC-Ganpan";
+  font-size: 20px;
+  color: #574017;
+}
+.item p span:nth-of-type(2) {
+  font-family: "KCC-Ganpan";
+  font-size: 20px;
+  color: #333;
+}
+
+.item_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.item_button button {
+  font-family: "KCC-Ganpan";
+  font-size: 20px;
+  background-color: #574017;
+  outline: none;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 40px;
+  margin: 5px 10px 0 0;
+}
+.item_button button:hover {
+  cursor: pointer;
+}
+ol {
+  font-size: 20px;
+  font-family: "KCC-Ganpan";
+  color: black;
+}
